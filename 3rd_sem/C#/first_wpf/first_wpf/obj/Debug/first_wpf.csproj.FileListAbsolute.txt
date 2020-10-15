@@ -1,0 +1,15 @@
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\bin\Debug\first_wpf.exe.config
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\bin\Debug\first_wpf.exe
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\bin\Debug\first_wpf.pdb
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.csprojAssemblyReference.cache
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\MainWindow.g.cs
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\App.g.cs
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf_MarkupCompile.cache
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf_MarkupCompile.lref
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\MainWindow.baml
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.g.resources
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.Properties.Resources.resources
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.csproj.GenerateResource.cache
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.csproj.CoreCompileInputs.cache
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.exe
+E:\practice\my-code-practice\3rd_sem\C#\first_wpf\first_wpf\obj\Debug\first_wpf.pdb
