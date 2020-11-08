@@ -1,0 +1,17 @@
+C:\>mkdir \data\rs1 \data\rs2 \data\rs3
+C:\>start mongod --replSet Demo --logpath \data\rs1\first.log --dbpath \data\rs1 --port 27017 --bind_ip --smallfiles --oplogSize 64
+C:\>start mongod --replSet Demo --logpath \data\rs2\second.log --dbpath \data\rs2 --port 27018 --bind_ip --smallfiles --oplogSize 64
+C:\>start mongod --replSet Demo --logpath \data\rs3\third.log --dbpath \data\rs3 --port 27019 --bind_ip --smallfiles --oplogSize 64
+C:\>mongo --port 27017
+>db.adminCommand({shutdown: 1});
+>config = { _id: "Demo", members: [ { _id: 0, host: "localhost: 27017"}, { _id: 1, host: "localhost: 27018"}, { _id: 2,host: "localhost: 27019"}]};
+>rs.initiate(config);
+>rs.status();
+>db.airphone.insert([{source: "+919612345670",destination: "+919612345671", source_location: "Delhi", destination_location: "Mumbai",
+call_duration: 2.03, roaming: false, call_charge: 2.03 }, {source: "+919612345670",destination: "+919345371345", source_location: "Delhi", destination_location: "Chennai",
+call_duration: 1.37, roaming: false, call_charge: 1.37 }, {source: "+919345371345",destination: "+918293977188", source_location: "Chennai", destination_location:
+"Bangalore", call_duration: 5.55, roaming: false, call_charge: 5.55 }]);
+>db.airphone.find().pretty();
+ In a new command prompt window we start the second MongoDB server, ‘mongo --port 27018’.
+>rs.slaveOk();
+>db.airphone.find().pretty();
